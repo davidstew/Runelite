@@ -185,6 +185,7 @@ public class ClanChatPlugin extends Plugin
 	@Subscribe
 	public void onClanMemberJoined(ClanMemberJoined event)
 	{
+		System.out.println("OOOOOOOOOOOOOOOOOH SHIT SOMEONE JOINED 2");
 		final ClanMember member = event.getMember();
 
 		if (member.getWorld() == client.getWorld())
